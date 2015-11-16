@@ -1,0 +1,78 @@
+/* Colours
+#18687F
+#D4F5FF
+#30D0FF
+#396F7F
+#26A6CC */
+* {
+    margin: 0;
+}
+body {
+    background-color: #D4F5FF;
+}
+p, form {
+    margin: 1rem;
+}
+form {
+    width: 60%;
+}
+header {
+    color: white;
+    font-size: 35px;
+    background-color: #18687F;
+    padding: 1rem;
+}
+label{
+    display: inline;
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: left;
+}
+input {
+    display: inline-block;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 35em){
+    label {
+        display: none;
+    }
+}
+    
+@media screen and (min-width: 35em) and (max-width: 60em){
+    label {
+        display: inline;
+        float: left;
+        clear: left;
+        width: 100px;
+        text-align: left;
+    }
+    input {
+        float: left;
+        clear: both;
+    }
+    .user, .url {
+        float: left;
+        width: 50%;
+    }
+
+    .mail, .pw {
+        float: right;
+        width: 50%;
+    }
+}
+    
+@media screen and (min-width: 60em){
+    .user, .pw {
+        float: left;
+        width: 50%;
+    }
+
+    .url, .mail {
+        float: left;
+        width: 50%;
+    }
+}
