@@ -1,9 +1,6 @@
 * {
     margin: 0;
 }
-header {
-    font-family: 'Inknut Antiqua', serif;
-}
 body {
     background-color: #D4F5FF;
     font-family: 'Cagliostro', sans-serif;
@@ -20,6 +17,7 @@ header {
     font-size: 35px;
     background-color: #18687F;
     padding: 1rem;
+    font-family: 'Inknut Antiqua', serif;
 }
 label{
     display: inline;
