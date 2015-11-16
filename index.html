@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Form elements</title>
     <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Inknut+Antiqua:700|Cagliostro' rel='stylesheet' type='text/css'>
 </head>
     <body>
         <header>The Winter Blues</header>
@@ -13,11 +14,11 @@
                 <legend>Subscribe here</legend>
                 <div class='user'>
                     <label for="fname">Username:</label>
-                    <input type="text" id="fname" placeholder="Username">
+                    <input type="text" id="fname" placeholder="Username" required>
                 </div>
                 <div class='mail'>
                     <label for="email">Email:</label>
-                    <input type="text" id="email" placeholder="E-mail">
+                    <input type="email" id="email" placeholder="E-mail" required>
                 </div>
                 <div class='url'>
                     <label for="website">Website:</label>
@@ -25,7 +26,7 @@
                 </div>
                 <div class='pw'>
                     <label for="pass">Password:</label>
-                    <input type="password" id="pass" placeholder="Password">
+                    <input type="password" id="pass" placeholder="Password" required>
                 </div>
                 <div class='box'>
                     <input type="submit" value="Submit">
